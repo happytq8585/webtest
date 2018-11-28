@@ -1,0 +1,12 @@
+[sys]
+ip=127.0.0.1
+port=8080
+
+ip_parser=http://ip.taobao.com/service/getIpInfo.php?ip=%s
+
+[redis]
+redis_ip=127.0.0.1
+redis_port=6379
+redis_db=0
+redis_password=redis_test
+redis_timeout=1200
